@@ -44,6 +44,7 @@ i {
     margin-left: auto;
     margin-right: auto;
     margin-top: 60px;
+    padding-bottom: 20px;
     background-color: antiquewhite;
 
 }
@@ -57,4 +58,10 @@ i {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+.projects a {
+    margin-left: 10px;
+    margin-right: 10px;
+
 }
