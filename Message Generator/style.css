@@ -1,0 +1,38 @@
+body {
+    text-align: center;
+    margin: 0;
+
+}
+
+header {
+    height: 400px;
+    width: 100%;
+    background-image: url("./Twister\ Background.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 4rem;
+    border-bottom: .5px solid black;
+    font-family: 'Franklin Gothic';
+    color: black;
+}
+
+#picture:hover {
+    cursor: pointer;
+    border: .5px solid greenyellow;
+}
+
+
+.game {
+    height: 600px;
+    font-size: 2rem;
+}
+
+#results {
+    border: 1px solid black;
+    height: 50px;
+    width: 60%;
+    margin: 30px auto;
+}
