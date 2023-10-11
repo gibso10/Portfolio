@@ -1,0 +1,67 @@
+body {
+    background-color: white;
+    font-size: 16px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow';
+    color: black;
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+ul {
+    display: flex;
+    justify-content: start;
+    list-style: none;
+    padding-left: 10px;
+}
+
+li {
+    margin-right: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+img {
+    height: 350px;
+    width: 350px;
+}
+
+i {
+    font-weight: 400px;
+}
+
+.container {
+    box-shadow: 5px 5px;
+    border: 1px solid black;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 60px;
+    padding-bottom: 20px;
+    background-color: antiquewhite;
+
+}
+
+
+
+#name_picture {
+    height: 500px;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.projects a {
+    margin-left: 10px;
+    margin-right: 10px;
+
+}
